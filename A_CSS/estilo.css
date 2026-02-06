@@ -51,6 +51,13 @@ main{
     background-position: bottom;
 
 }
+main a{
+    color: rgb(232, 251, 232);
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
 .personaje{
     width: 1300px;
     height: 400px;
@@ -58,6 +65,7 @@ main{
     margin-left: 33px;
     margin-top: 80px;
     display: inline-block;
+    padding-top: 20px;
 }
 .foto{
     width: 400px;
